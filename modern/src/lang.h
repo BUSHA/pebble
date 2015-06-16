@@ -23,6 +23,7 @@
  * 103 Polish
  * 105 Portuguese
  * 108 Romanian
+ * 112 Russian
  * 121 Slovak
  * 123 Slovenian
  * 125 Spanish
@@ -339,6 +340,19 @@ static const char* const DAYS[] = {
 "J", /* J */
 "V", /* V */
 "S", /* S */
+};
+#endif 
+
+#if LANG == 112
+// Russian
+static const char* const DAYS[] = {
+"Пн", /* D */
+"Вт", /* L */
+"Ср", /* Ma */
+"Чт", /* Mi */
+"Пт", /* J */
+"Сб", /* V */
+"Вс", /* S */
 };
 #endif 
 
